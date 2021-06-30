@@ -31,8 +31,8 @@ namespace Friger_Plz.ui
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.friger = new Sunny.UI.UIButton();
-            this.frigerIce = new Sunny.UI.UIButton();
+            this.veiwfriger = new Sunny.UI.UIButton();
+            this.viewfrigerIce = new Sunny.UI.UIButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,35 +46,36 @@ namespace Friger_Plz.ui
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // friger
+            // veiwfriger
             // 
-            this.friger.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.friger.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.friger.Location = new System.Drawing.Point(331, 145);
-            this.friger.MinimumSize = new System.Drawing.Size(1, 1);
-            this.friger.Name = "friger";
-            this.friger.Size = new System.Drawing.Size(241, 63);
-            this.friger.TabIndex = 1;
-            this.friger.Text = "냉장고 조회";
+            this.veiwfriger.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.veiwfriger.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.veiwfriger.Location = new System.Drawing.Point(331, 145);
+            this.veiwfriger.MinimumSize = new System.Drawing.Size(1, 1);
+            this.veiwfriger.Name = "veiwfriger";
+            this.veiwfriger.Size = new System.Drawing.Size(241, 63);
+            this.veiwfriger.TabIndex = 1;
+            this.veiwfriger.Text = "냉장고 조회";
+            this.veiwfriger.Click += new System.EventHandler(this.veiwfriger_Click);
             // 
-            // frigerIce
+            // viewfrigerIce
             // 
-            this.frigerIce.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.frigerIce.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.frigerIce.Location = new System.Drawing.Point(331, 435);
-            this.frigerIce.MinimumSize = new System.Drawing.Size(1, 1);
-            this.frigerIce.Name = "frigerIce";
-            this.frigerIce.Size = new System.Drawing.Size(241, 63);
-            this.frigerIce.TabIndex = 2;
-            this.frigerIce.Text = "냉동고 조회";
+            this.viewfrigerIce.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.viewfrigerIce.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.viewfrigerIce.Location = new System.Drawing.Point(331, 435);
+            this.viewfrigerIce.MinimumSize = new System.Drawing.Size(1, 1);
+            this.viewfrigerIce.Name = "viewfrigerIce";
+            this.viewfrigerIce.Size = new System.Drawing.Size(241, 63);
+            this.viewfrigerIce.TabIndex = 2;
+            this.viewfrigerIce.Text = "냉동고 조회";
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(675, 598);
-            this.Controls.Add(this.frigerIce);
-            this.Controls.Add(this.friger);
+            this.Controls.Add(this.viewfrigerIce);
+            this.Controls.Add(this.veiwfriger);
             this.Controls.Add(this.pictureBox1);
             this.Name = "MainForm";
             this.Text = "냉장고를 부탁해 v1.0";
@@ -86,7 +87,7 @@ namespace Friger_Plz.ui
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private Sunny.UI.UIButton friger;
-        private Sunny.UI.UIButton frigerIce;
+        private Sunny.UI.UIButton veiwfriger;
+        private Sunny.UI.UIButton viewfrigerIce;
     }
 }

@@ -35,7 +35,6 @@ namespace Friger_Plz.ui
             this.uiTextBox2 = new Sunny.UI.UITextBox();
             this.uiComboBox1 = new Sunny.UI.UIComboBox();
             this.uiButton1 = new Sunny.UI.UIButton();
-            this.uiButton2 = new Sunny.UI.UIButton();
             this.uiLabel3 = new Sunny.UI.UILabel();
             this.uiLabel4 = new Sunny.UI.UILabel();
             this.uiLabel5 = new Sunny.UI.UILabel();
@@ -43,6 +42,13 @@ namespace Friger_Plz.ui
             this.uiComboBox3 = new Sunny.UI.UIComboBox();
             this.uiComboBox4 = new Sunny.UI.UIComboBox();
             this.uiTextBox3 = new Sunny.UI.UITextBox();
+            this.uiTextBox4 = new Sunny.UI.UITextBox();
+            this.uiComboBox2 = new Sunny.UI.UIComboBox();
+            this.uiComboBox5 = new Sunny.UI.UIComboBox();
+            this.uiLabel7 = new Sunny.UI.UILabel();
+            this.uiLabel8 = new Sunny.UI.UILabel();
+            this.uiLabel9 = new Sunny.UI.UILabel();
+            this.uiLabel10 = new Sunny.UI.UILabel();
             this.SuspendLayout();
             // 
             // uiTextBox1
@@ -121,28 +127,17 @@ namespace Friger_Plz.ui
             // 
             this.uiButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.uiButton1.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiButton1.Location = new System.Drawing.Point(280, 341);
+            this.uiButton1.Location = new System.Drawing.Point(348, 381);
             this.uiButton1.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiButton1.Name = "uiButton1";
-            this.uiButton1.Size = new System.Drawing.Size(224, 63);
+            this.uiButton1.Size = new System.Drawing.Size(138, 57);
             this.uiButton1.TabIndex = 5;
             this.uiButton1.Text = "추가";
-            // 
-            // uiButton2
-            // 
-            this.uiButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiButton2.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiButton2.Location = new System.Drawing.Point(527, 341);
-            this.uiButton2.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiButton2.Name = "uiButton2";
-            this.uiButton2.Size = new System.Drawing.Size(224, 63);
-            this.uiButton2.TabIndex = 5;
-            this.uiButton2.Text = "취소";
             // 
             // uiLabel3
             // 
             this.uiLabel3.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiLabel3.Location = new System.Drawing.Point(49, 237);
+            this.uiLabel3.Location = new System.Drawing.Point(40, 302);
             this.uiLabel3.Name = "uiLabel3";
             this.uiLabel3.Size = new System.Drawing.Size(98, 54);
             this.uiLabel3.TabIndex = 6;
@@ -152,7 +147,7 @@ namespace Friger_Plz.ui
             // uiLabel4
             // 
             this.uiLabel4.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiLabel4.Location = new System.Drawing.Point(297, 237);
+            this.uiLabel4.Location = new System.Drawing.Point(288, 302);
             this.uiLabel4.Name = "uiLabel4";
             this.uiLabel4.Size = new System.Drawing.Size(29, 54);
             this.uiLabel4.TabIndex = 8;
@@ -162,7 +157,7 @@ namespace Friger_Plz.ui
             // uiLabel5
             // 
             this.uiLabel5.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiLabel5.Location = new System.Drawing.Point(464, 240);
+            this.uiLabel5.Location = new System.Drawing.Point(455, 305);
             this.uiLabel5.Name = "uiLabel5";
             this.uiLabel5.Size = new System.Drawing.Size(29, 54);
             this.uiLabel5.TabIndex = 9;
@@ -172,7 +167,7 @@ namespace Friger_Plz.ui
             // uiLabel6
             // 
             this.uiLabel6.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiLabel6.Location = new System.Drawing.Point(670, 240);
+            this.uiLabel6.Location = new System.Drawing.Point(661, 305);
             this.uiLabel6.Name = "uiLabel6";
             this.uiLabel6.Size = new System.Drawing.Size(81, 54);
             this.uiLabel6.TabIndex = 10;
@@ -196,7 +191,7 @@ namespace Friger_Plz.ui
             "10",
             "11",
             "12"});
-            this.uiComboBox3.Location = new System.Drawing.Point(348, 250);
+            this.uiComboBox3.Location = new System.Drawing.Point(339, 315);
             this.uiComboBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.uiComboBox3.MinimumSize = new System.Drawing.Size(63, 0);
             this.uiComboBox3.Name = "uiComboBox3";
@@ -242,7 +237,7 @@ namespace Friger_Plz.ui
             "29",
             "30",
             "31"});
-            this.uiComboBox4.Location = new System.Drawing.Point(559, 250);
+            this.uiComboBox4.Location = new System.Drawing.Point(550, 315);
             this.uiComboBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.uiComboBox4.MinimumSize = new System.Drawing.Size(63, 0);
             this.uiComboBox4.Name = "uiComboBox4";
@@ -257,7 +252,7 @@ namespace Friger_Plz.ui
             this.uiTextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.uiTextBox3.FillColor = System.Drawing.Color.White;
             this.uiTextBox3.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiTextBox3.Location = new System.Drawing.Point(154, 237);
+            this.uiTextBox3.Location = new System.Drawing.Point(145, 302);
             this.uiTextBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.uiTextBox3.Maximum = 2147483647D;
             this.uiTextBox3.Minimum = -2147483648D;
@@ -269,11 +264,148 @@ namespace Friger_Plz.ui
             this.uiTextBox3.Text = "4자리 연도 입력";
             this.uiTextBox3.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // uiTextBox4
+            // 
+            this.uiTextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.uiTextBox4.FillColor = System.Drawing.Color.White;
+            this.uiTextBox4.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiTextBox4.Location = new System.Drawing.Point(145, 231);
+            this.uiTextBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.uiTextBox4.Maximum = 2147483647D;
+            this.uiTextBox4.Minimum = -2147483648D;
+            this.uiTextBox4.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiTextBox4.Name = "uiTextBox4";
+            this.uiTextBox4.Padding = new System.Windows.Forms.Padding(5);
+            this.uiTextBox4.Size = new System.Drawing.Size(108, 51);
+            this.uiTextBox4.TabIndex = 21;
+            this.uiTextBox4.Text = "4자리 연도 입력";
+            this.uiTextBox4.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // uiComboBox2
+            // 
+            this.uiComboBox2.FillColor = System.Drawing.Color.White;
+            this.uiComboBox2.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiComboBox2.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31"});
+            this.uiComboBox2.Location = new System.Drawing.Point(550, 244);
+            this.uiComboBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.uiComboBox2.MinimumSize = new System.Drawing.Size(63, 0);
+            this.uiComboBox2.Name = "uiComboBox2";
+            this.uiComboBox2.Padding = new System.Windows.Forms.Padding(0, 0, 30, 2);
+            this.uiComboBox2.Size = new System.Drawing.Size(95, 29);
+            this.uiComboBox2.TabIndex = 20;
+            this.uiComboBox2.Text = "uiComboBox2";
+            this.uiComboBox2.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // uiComboBox5
+            // 
+            this.uiComboBox5.FillColor = System.Drawing.Color.White;
+            this.uiComboBox5.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiComboBox5.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"});
+            this.uiComboBox5.Location = new System.Drawing.Point(339, 244);
+            this.uiComboBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.uiComboBox5.MinimumSize = new System.Drawing.Size(63, 0);
+            this.uiComboBox5.Name = "uiComboBox5";
+            this.uiComboBox5.Padding = new System.Windows.Forms.Padding(0, 0, 30, 2);
+            this.uiComboBox5.Size = new System.Drawing.Size(95, 29);
+            this.uiComboBox5.TabIndex = 19;
+            this.uiComboBox5.Text = "uiComboBox5";
+            this.uiComboBox5.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // uiLabel7
+            // 
+            this.uiLabel7.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiLabel7.Location = new System.Drawing.Point(661, 234);
+            this.uiLabel7.Name = "uiLabel7";
+            this.uiLabel7.Size = new System.Drawing.Size(81, 54);
+            this.uiLabel7.TabIndex = 18;
+            this.uiLabel7.Text = "일";
+            this.uiLabel7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // uiLabel8
+            // 
+            this.uiLabel8.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiLabel8.Location = new System.Drawing.Point(455, 234);
+            this.uiLabel8.Name = "uiLabel8";
+            this.uiLabel8.Size = new System.Drawing.Size(29, 54);
+            this.uiLabel8.TabIndex = 17;
+            this.uiLabel8.Text = "월";
+            this.uiLabel8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // uiLabel9
+            // 
+            this.uiLabel9.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiLabel9.Location = new System.Drawing.Point(288, 231);
+            this.uiLabel9.Name = "uiLabel9";
+            this.uiLabel9.Size = new System.Drawing.Size(29, 54);
+            this.uiLabel9.TabIndex = 16;
+            this.uiLabel9.Text = "년";
+            this.uiLabel9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // uiLabel10
+            // 
+            this.uiLabel10.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.uiLabel10.Location = new System.Drawing.Point(40, 231);
+            this.uiLabel10.Name = "uiLabel10";
+            this.uiLabel10.Size = new System.Drawing.Size(98, 54);
+            this.uiLabel10.TabIndex = 15;
+            this.uiLabel10.Text = "입고날짜";
+            this.uiLabel10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // AddFriger
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.uiTextBox4);
+            this.Controls.Add(this.uiComboBox2);
+            this.Controls.Add(this.uiComboBox5);
+            this.Controls.Add(this.uiLabel7);
+            this.Controls.Add(this.uiLabel8);
+            this.Controls.Add(this.uiLabel9);
+            this.Controls.Add(this.uiLabel10);
             this.Controls.Add(this.uiTextBox3);
             this.Controls.Add(this.uiComboBox4);
             this.Controls.Add(this.uiComboBox3);
@@ -281,7 +413,6 @@ namespace Friger_Plz.ui
             this.Controls.Add(this.uiLabel5);
             this.Controls.Add(this.uiLabel4);
             this.Controls.Add(this.uiLabel3);
-            this.Controls.Add(this.uiButton2);
             this.Controls.Add(this.uiButton1);
             this.Controls.Add(this.uiComboBox1);
             this.Controls.Add(this.uiTextBox2);
@@ -302,7 +433,6 @@ namespace Friger_Plz.ui
         private Sunny.UI.UITextBox uiTextBox2;
         private Sunny.UI.UIComboBox uiComboBox1;
         private Sunny.UI.UIButton uiButton1;
-        private Sunny.UI.UIButton uiButton2;
         private Sunny.UI.UILabel uiLabel3;
         private Sunny.UI.UILabel uiLabel4;
         private Sunny.UI.UILabel uiLabel5;
@@ -310,5 +440,12 @@ namespace Friger_Plz.ui
         private Sunny.UI.UIComboBox uiComboBox3;
         private Sunny.UI.UIComboBox uiComboBox4;
         private Sunny.UI.UITextBox uiTextBox3;
+        private Sunny.UI.UITextBox uiTextBox4;
+        private Sunny.UI.UIComboBox uiComboBox2;
+        private Sunny.UI.UIComboBox uiComboBox5;
+        private Sunny.UI.UILabel uiLabel7;
+        private Sunny.UI.UILabel uiLabel8;
+        private Sunny.UI.UILabel uiLabel9;
+        private Sunny.UI.UILabel uiLabel10;
     }
 }
